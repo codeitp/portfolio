@@ -10,7 +10,7 @@ The portfolio is built using Next.js for its performance and modern web developm
 
 ## Hosted on Render
 
-This portfolio is hosted on [Render](https://render.com). You can view it live at [Portfolio Link](#). *(Update the link once hosted.)*
+This portfolio is hosted on [Render](https://render.com). You can view it live at [Portfolio Link](#). *(To Update the link once hosted.)*
 
 ## Getting Started
 
