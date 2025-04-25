@@ -1,4 +1,16 @@
+# Personal Portfolio
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## About the Project
+
+This project is my personal portfolio, showcasing my skills, projects, and experiences as a developer. It is designed to provide visitors with an overview of my work, highlight my technical expertise, and serve as a platform to connect with potential collaborators or employers.
+
+The portfolio is built using Next.js for its performance and modern web development features, ensuring a fast and seamless user experience.
+
+## Hosted on Render
+
+This portfolio is hosted on [Render](https://render.com). You can view it live at [Portfolio Link](#). *(Update the link once hosted.)*
 
 ## Getting Started
 
