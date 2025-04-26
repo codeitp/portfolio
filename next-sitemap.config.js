@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://portfolio-domain.com",
+  siteUrl: "https://patroba-portfolio.onrender.com",
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: "monthly",

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://patroba-portfolio.onrender.com
+
+# Sitemaps
+Sitemap: https://patroba-portfolio.onrender.com/sitemap.xml
