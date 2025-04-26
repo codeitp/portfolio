@@ -33,11 +33,11 @@ export const metadata: Metadata = {
     title: "Patroba | Secure Systems Developer & Automation Engineer",
     description:
       "Portfolio of Patroba — showcasing secure systems development, AI automation, mobile app engineering, and QA expertise. Built with Next.js, Tailwind, and Framer Motion.",
-    url: "https://patroba-portfolio.onrender.com",
+    url: "https://patroba-oteko.onrender.com",
     siteName: "Patroba Portfolio",
     images: [
       {
-        url: "https://patroba-portfolio.onrender.com/og-image.png",
+        url: "https://patroba-oteko.onrender.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "Patroba Portfolio Preview",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     description:
       "Explore Patroba’s work in infosec, automation, QA, and mobile — uniquely styled with Next.js and neon energy.",
     creator: "@codeitp",
-    images: ["https://patroba-portfolio.onrender.com/og-image.png"],
+    images: ["https://patroba-oteko.onrender.com/og-image.png"],
   },
 };
 
