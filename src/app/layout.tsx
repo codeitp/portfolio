@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 export const metadata: Metadata = {
-  title: "CodeItP | Secure Systems Dev & Automation Portfolio",
+  title: "Patroba | Secure Systems Dev & Automation Portfolio",
   description:
     "Showcasing expertise in secure systems, AI, mobile, QA, and full-stack automation. Built with Next.js, Tailwind, Framer Motion, and neon energy.",
   keywords: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   creator: "Patroba",
   themeColor: "#00ff88",
   openGraph: {
-    title: "Patroba | Secure Systems Developer & Automation Engineer",
+    title: "Patroba | Secure Systems & Automation Engineer",
     description:
       "Portfolio of Patroba — showcasing secure systems development, AI automation, mobile app engineering, and QA expertise. Built with Next.js, Tailwind, and Framer Motion.",
     url: siteUrl,

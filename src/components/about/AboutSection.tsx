@@ -8,7 +8,7 @@ const skillCategories = [
     title: "AI & Agentic Automation",
     skills: [
       "Python, TensorFlow, LangChain",
-      "OpenAI / Hugging Face / Huggin",
+      "OpenAI, Hugging Face, Huggin",
       "Zapier, Make, Power Automate, n8n",
       "LLM Integrations, LangChain",
       "Agentic Automation",
