@@ -2,8 +2,45 @@
 
 import { motion } from "framer-motion";
 import { Send } from "lucide-react";
+import { toast } from "react-hot-toast";
 
 export default function ContactSection() {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const data = {
+      access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
+      name: formData.get("name"),
+      email: formData.get("email"),
+      message: formData.get("message"),
+    };
+
+    const toastId = toast.loading("Sending...");
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        toast.success("Message sent 🚀", { id: toastId });
+        form.reset();
+      } else {
+        toast.error("Failed to send message.", { id: toastId });
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error("Something went wrong.", { id: toastId });
+    }
+  };
+
   return (
     <section
       id="contact"
@@ -29,10 +66,7 @@ export default function ContactSection() {
 
         <form
           className="space-y-6 bg-[#141414] p-8 rounded-xl shadow-lg border border-green-800"
-          onSubmit={(e) => {
-            e.preventDefault();
-            alert("Message sent 🚀");
-          }}
+          onSubmit={handleSubmit}
         >
           <div className="flex flex-col gap-2">
             <label htmlFor="name" className="text-sm text-green-300">

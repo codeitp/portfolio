@@ -124,7 +124,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 .bg-grid-pattern {
   background-image: linear-gradient(#1aff87 1px, transparent 1px), linear-gradient(90deg, #1aff87 1px, transparent 1px);
   background-size: 40px 40px;
