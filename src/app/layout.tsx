@@ -12,6 +12,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://patroba-oteko.onrender.com";
+
 export const metadata: Metadata = {
   title: "CodeItP | Secure Systems Dev & Automation Portfolio",
   description:
@@ -33,11 +35,11 @@ export const metadata: Metadata = {
     title: "Patroba | Secure Systems Developer & Automation Engineer",
     description:
       "Portfolio of Patroba — showcasing secure systems development, AI automation, mobile app engineering, and QA expertise. Built with Next.js, Tailwind, and Framer Motion.",
-    url: "https://patroba-oteko.onrender.com",
+    url: siteUrl,
     siteName: "Patroba Portfolio",
     images: [
       {
-        url: "https://patroba-oteko.onrender.com/og-image.png",
+        url: `${siteUrl}/og-image.png`,
         width: 1200,
         height: 630,
         alt: "Patroba Portfolio Preview",
@@ -51,8 +53,8 @@ export const metadata: Metadata = {
     title: "Patroba | Secure Systems Dev Portfolio",
     description:
       "Explore Patroba’s work in infosec, automation, QA, and mobile — uniquely styled with Next.js and neon energy.",
-    creator: "@codeitp",
-    images: ["https://patroba-oteko.onrender.com/og-image.png"],
+    creator: "@Patroba",
+    images: [`${siteUrl}/og-image.png`],
   },
 };
 
