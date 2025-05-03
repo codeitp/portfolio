@@ -78,10 +78,11 @@ export default function AboutSection() {
           About Me
         </h2>
         <p className="text-center text-lg text-gray-300 mb-16 leading-relaxed max-w-3xl mx-auto">
-          I’m a software engineer specializing in secure systems development, AI
-          automation, mobile engineering, and QA. With a focus on cutting-edge,
-          in-demand technologies, I build, secure, and automate scalable systems
-          with deep attention to both performance and integrity..
+          I’m a Technical Solutions Specialist with core expertise in software
+          development, systems automation, QA engineering, and technical
+          support. I craft secure, scalable solutions with strong foundations in
+          infosec, mobile engineering, and AI-driven automation—tailored for
+          performance, resilience, and future-readiness.
         </p>
 
         <div className="space-y-12">

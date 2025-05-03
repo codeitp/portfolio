@@ -22,15 +22,15 @@ export default function HeroSection() {
         <h1 className="text-4xl md:text-6xl font-bold leading-tight tracking-tight text-green-400 drop-shadow-md">
           <TypeAnimation
             sequence={[
-              "Secure Systems Engineer.",
+              "Technical Solutions Specialist.",
               1500,
-              "Automation Enthusiast.",
+              "Secure Systems Developer.",
               1500,
-              "Infosec Engineer.",
+              "Automation Engineer.",
               1500,
-              "QA Analyst.",
+              "QA & Infosec Analyst.",
               1500,
-              "Full-Stack Artisan.",
+              "Full-Stack Technologist.",
               1500,
             ]}
             wrapper="span"
@@ -45,8 +45,8 @@ export default function HeroSection() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
         >
-          Building secure, automated, and resilient digital systems with
-          precision and creativity.
+          Bridging software, security, and automation to deliver reliable,
+          scalable, and intelligent digital solutions.
         </motion.p>
 
         <motion.nav

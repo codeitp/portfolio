@@ -9,7 +9,7 @@ const timeline = [
     title: "Full-Stack + API Engineering",
     icon: <Code className="w-5 h-5 text-green-400" />,
     description:
-      "While still in campus, embarked on a journey to master full-stack systems. Developed secure, scalable apps with Java, Node.js, React, Go, and Spring Boot.",
+      "Started building modern full-stack systems with strong API architecture. Gained proficiency in secure, scalable backend and frontend ecosystems using Java, Node.js, Go, and React.",
   },
   {
     year: "2021",
@@ -20,25 +20,25 @@ const timeline = [
   },
   {
     year: "2023",
-    title: "Secure Systems Engineering",
+    title: "Secure Systems & Infrastructure",
     icon: <ShieldCheck className="w-5 h-5 text-green-400" />,
     description:
-      "Transitioned into infosec and secure systems development. Focused on building resilient APIs and hardened infrastructure.",
+      "Evolved into systems security engineering. Designed hardened infrastructure, managed system integrity, and delivered secure-by-default platforms.",
   },
   {
     year: "2024",
-    title: "Quality Assurance Foundation",
+    title: "Quality Assurance & Automation",
     icon: <Brain className="w-5 h-5 text-green-400" />,
     description:
-      "Added QA/Test Engineering into my repertoire. Gained strong roots in software testing, automation tools, and system behavior analysis.",
+      "Built foundational QA capabilities. Worked across manual and automated testing pipelines using Cypress, Playwright, and API testing to ensure delivery quality.",
   },
 
   {
     year: "2025 →",
-    title: "AI & Agentic Automation",
+    title: "AI-Powered Agentic Automation",
     icon: <Zap className="w-5 h-5 text-green-400" />,
     description:
-      "Integrated AI agents, LLMs, and no-code tools to drive intelligent automation in workflows and security pipelines.",
+       "Leveraged AI tools and LLMs to automate workflows and security pipelines, integrating agentic orchestration and no-code platforms to boost solution efficiency.",
   },
 ];
 
