@@ -15,10 +15,11 @@ const geistMono = Geist_Mono({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 export const metadata: Metadata = {
-  title: "Patroba | Secure Systems Dev & Automation Portfolio",
+  title: "Patroba | Technical Solutions Specialist",
   description:
     "Showcasing expertise in secure systems, AI, mobile, QA, and full-stack automation. Built with Next.js, Tailwind, Framer Motion, and neon energy.",
   keywords: [
+    "technical solutions specialist",
     "secure systems developer",
     "automation engineer",
     "mobile app developer",
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
   creator: "Patroba",
   themeColor: "#00ff88",
   openGraph: {
-    title: "Patroba | Secure Systems & Automation Engineer",
+    title: "Patroba | Technical Solutions Specialist",
     description:
       "Portfolio of Patroba — showcasing secure systems development, AI automation, mobile app engineering, and QA expertise. Built with Next.js, Tailwind, and Framer Motion.",
     url: siteUrl,
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Patroba | Secure Systems Dev Portfolio",
+    title: "Patroba | Technical Solutions Specialist Portfolio",
     description:
       "Explore Patroba’s work in infosec, automation, QA, and mobile — uniquely styled with Next.js and neon energy.",
     creator: "@Patroba",
