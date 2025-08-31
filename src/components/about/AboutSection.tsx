@@ -25,7 +25,7 @@ const skillCategories = [
     ],
   },
   {
-    title: "Secure Systems Development",
+    title: "Systems Security",
     skills: [
       "API Security",
       "Blue Team: Logging, Monitoring, Incident Response",
