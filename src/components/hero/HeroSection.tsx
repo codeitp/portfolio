@@ -30,8 +30,6 @@ export default function HeroSection() {
               1500,
               "QA & Infosec Analyst.",
               1500,
-              "Full-Stack Technologist.",
-              1500,
             ]}
             wrapper="span"
             speed={20}

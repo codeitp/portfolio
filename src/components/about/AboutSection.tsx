@@ -18,7 +18,7 @@ const skillCategories = [
     title: "Full-Stack Engineering",
     skills: [
       "Node.js, React, Angular",
-      "Java (Spring Boot), Go",
+      "Java (Spring Boot)",
       "REST APIs, Auth (OAuth2/JWT)",
       "Redis, RabbitMQ",
       "UI/UX Design, Responsive Interfaces",
@@ -34,10 +34,10 @@ const skillCategories = [
     ],
   },
   {
-    title: "Mobile App Engineeringe",
+    title: "Mobile App Engineering",
     skills: [
       "Kotlin (Jetpack Compose, Coroutines, Hilt)",
-      "Flutter, React Native",
+      "React Native",
       "App Security, Performance Optimization",
       "Android Automation & Testing tools",
     ],

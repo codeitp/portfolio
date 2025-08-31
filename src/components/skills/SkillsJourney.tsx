@@ -9,14 +9,14 @@ const timeline = [
     title: "Full-Stack + API Engineering",
     icon: <Code className="w-5 h-5 text-green-400" />,
     description:
-      "Started building modern full-stack systems with strong API architecture. Gained proficiency in secure, scalable backend and frontend ecosystems using Java, Node.js, Go, and React.",
+      "Started building modern full-stack systems with strong API architecture. Gained proficiency in secure, scalable backend and frontend ecosystems using Java, Node.js, React/Angular, and databases.",
   },
   {
     year: "2021",
     title: "Mobile Engineering & AppSec",
     icon: <Smartphone className="w-5 h-5 text-green-400" />,
     description:
-      "Built secure mobile apps using Kotlin (Jetpack Compose), Flutter, and React Native with focus on app performance and safety.",
+      "Built secure mobile apps using Kotlin (Jetpack Compose), and React Native with focus on app performance and safety.",
   },
   {
     year: "2023",
@@ -38,7 +38,7 @@ const timeline = [
     title: "AI-Powered Agentic Automation",
     icon: <Zap className="w-5 h-5 text-green-400" />,
     description:
-       "Leveraged AI tools and LLMs to automate workflows and security pipelines, integrating agentic orchestration and no-code platforms to boost solution efficiency.",
+       "Leveraging AI tools and LLMs to automate workflows and security pipelines, integrating agentic orchestration and no-code platforms to boost solution efficiency.",
   },
 ];
 
